@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap12bind="http://schemas.xmlsoap.org/wsdl/soap12/"
+		xmlns:soapbind="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:tns="http://www.1c.ru/SSL/Download"
+		xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+		xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsd1="http://www.1c.ru/SSL/Download"
+		name="WebСервисПоЗагрузкеДанных"
+		targetNamespace="http://www.1c.ru/SSL/Download">
+	<types>
+		<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+				xmlns:xs1="http://www.1c.ru/SSL/Download"
+				targetNamespace="http://www.1c.ru/SSL/Download"
+				elementFormDefault="qualified">
+			<xs:element name="Download">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="XMLinf"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="DownloadResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="return"
+								type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:schema>
+	</types>
+	<message name="DownloadRequestMessage">
+		<part name="parameters"
+				element="tns:Download"/>
+	</message>
+	<message name="DownloadResponseMessage">
+		<part name="parameters"
+				element="tns:DownloadResponse"/>
+	</message>
+	<portType name="WebСервисПоЗагрузкеДанныхPortType">
+		<operation name="Download">
+			<input name="DownloadRequest"
+					message="tns:DownloadRequestMessage"/>
+			<output name="DownloadResponse"
+					message="tns:DownloadResponseMessage"/>
+		</operation>
+	</portType>
+	<binding name="WebСервисПоЗагрузкеДанныхSoapBinding"
+			type="tns:WebСервисПоЗагрузкеДанныхPortType">
+		<soapbind:binding style="document"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="Download">
+			<soapbind:operation style="document"
+					soapAction="http://www.1c.ru/SSL/Download#WebСервисПоЗагрузкеДанных:Download"/>
+			<input>
+				<soapbind:body use="literal"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<binding name="WebСервисПоЗагрузкеДанныхSoap12Binding"
+			type="tns:WebСервисПоЗагрузкеДанныхPortType">
+		<soap12bind:binding style="document"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="Download">
+			<soap12bind:operation style="document"
+					soapAction="http://www.1c.ru/SSL/Download#WebСервисПоЗагрузкеДанных:Download"/>
+			<input>
+				<soap12bind:body use="literal"/>
+			</input>
+			<output>
+				<soap12bind:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<service name="WebСервисПоЗагрузкеДанных">
+		<port name="WebСервисПоЗагрузкеДанныхSoap"
+				binding="tns:WebСервисПоЗагрузкеДанныхSoapBinding">
+			<documentation> 
+				<wsi:Claim xmlns:wsi="http://ws-i.org/schemas/conformanceClaim/"
+						conformsTo="http://ws-i.org/profiles/basic/1.1"/>
+			</documentation>
+			<soapbind:address location="http://127.0.0.1/G1/ws/ws1.1cws"/>
+		</port>
+		<port name="WebСервисПоЗагрузкеДанныхSoap12"
+				binding="tns:WebСервисПоЗагрузкеДанныхSoap12Binding">
+			<soap12bind:address location="http://127.0.0.1/G1/ws/ws1.1cws"/>
+		</port>
+	</service>
+</definitions>
