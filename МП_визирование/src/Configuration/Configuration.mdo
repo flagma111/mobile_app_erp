@@ -44,5 +44,8 @@
   <commonForms>CommonForm.ФормаНастроек</commonForms>
   <commonForms>CommonForm.ФормаСпискаДокументовВизирования</commonForms>
   <commonForms>CommonForm.ФормаДокументаДляВизирования</commonForms>
+  <catalogs>Catalog.Справочник</catalogs>
   <dataProcessors>DataProcessor.Денис</dataProcessors>
+  <informationRegisters>InformationRegister.РегистрСведений</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.РегистрНакопления</accumulationRegisters>
 </mdclass:Configuration>
