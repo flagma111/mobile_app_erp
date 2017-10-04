@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a54958a-a2c1-4c57-92bd-accc8e5c867b">
-  <name>Конфигурация</name>
+  <name>ERP</name>
+  <synonym>
+    <key>ru</key>
+    <value>ERP</value>
+  </synonym>
   <comment></comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="cd074897-ef9e-4b42-95d5-ca71934cfb2f"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="183883ee-3177-45e3-9726-2081fdfc78d7"/>
@@ -10,16 +14,20 @@
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="335c5c00-647d-465d-ad7b-b946d22205cb"/>
   <namePrefix></namePrefix>
   <defaultRunMode>ManagedApplication</defaultRunMode>
-  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor></vendor>
   <version></version>
   <updateCatalogAddress></updateCatalogAddress>
+  <requiredMobileApplicationPermissions>PushNotification</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>LocalNotification</requiredMobileApplicationPermissions>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.9</compatibilityMode>
+  <interfaceCompatibilityMode>Version8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
   <languages uuid="3e6ecbe2-2308-4d74-8714-d1781f261cf2">
     <name>Русский</name>
     <synonym>
@@ -29,4 +37,11 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <sessionParameters>SessionParameter.UIDАвторизаванногоПользователя</sessionParameters>
+  <constants>Constant.ИмяПользователя</constants>
+  <constants>Constant.ПарольПользователя</constants>
+  <constants>Constant.СтрокаСоединения</constants>
+  <commonForms>CommonForm.ФормаНастроек</commonForms>
+  <commonForms>CommonForm.ФормаСпискаДокументовВизирования</commonForms>
+  <commonForms>CommonForm.ФормаДокументаДляВизирования</commonForms>
 </mdclass:Configuration>

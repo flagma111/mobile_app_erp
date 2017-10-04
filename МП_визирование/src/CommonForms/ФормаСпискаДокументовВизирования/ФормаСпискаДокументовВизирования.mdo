@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f33c4508-7066-41e6-9d43-908b1b117cd2">
+  <name>ФормаСпискаДокументовВизирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы для визирования</value>
+  </synonym>
+  <comment>//Ден  2017 10 02 ---</comment>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>
