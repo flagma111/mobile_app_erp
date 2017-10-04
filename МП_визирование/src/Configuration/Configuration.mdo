@@ -44,4 +44,5 @@
   <commonForms>CommonForm.ФормаНастроек</commonForms>
   <commonForms>CommonForm.ФормаСпискаДокументовВизирования</commonForms>
   <commonForms>CommonForm.ФормаДокументаДляВизирования</commonForms>
+  <dataProcessors>DataProcessor.Денис</dataProcessors>
 </mdclass:Configuration>

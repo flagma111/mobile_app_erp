@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c44e44d-4162-4268-8e78-0197b95cf04b">
+  <producedTypes>
+    <objectType typeId="ba68eb08-b020-4956-a8a1-2cc4c350dc15" valueTypeId="03e5434a-c9f1-4802-9b5c-3b4bbd94f21c">
+    </objectType>
+    <managerType typeId="6e91bb98-0353-4e37-af73-6c6bd3003cba" valueTypeId="54759d8f-17b8-4061-9569-4cb9207f7b61">
+    </managerType>
+  </producedTypes>
+  <name>Денис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денис</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>
