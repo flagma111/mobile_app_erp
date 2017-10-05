@@ -14,7 +14,7 @@
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="335c5c00-647d-465d-ad7b-b946d22205cb"/>
   <namePrefix></namePrefix>
   <defaultRunMode>ManagedApplication</defaultRunMode>
-  <usePurposes>MobileDevice</usePurposes>
+  <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor></vendor>
   <version></version>
@@ -26,7 +26,6 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
-  <interfaceCompatibilityMode>Version8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.10</compatibilityMode>
   <languages uuid="3e6ecbe2-2308-4d74-8714-d1781f261cf2">
     <name>Русский</name>
@@ -44,8 +43,5 @@
   <commonForms>CommonForm.ФормаНастроек</commonForms>
   <commonForms>CommonForm.ФормаСпискаДокументовВизирования</commonForms>
   <commonForms>CommonForm.ФормаДокументаДляВизирования</commonForms>
-  <catalogs>Catalog.Справочник</catalogs>
-  <dataProcessors>DataProcessor.Денис</dataProcessors>
-  <informationRegisters>InformationRegister.РегистрСведений</informationRegisters>
-  <accumulationRegisters>AccumulationRegister.РегистрНакопления</accumulationRegisters>
+  <commonForms>CommonForm.ФормаПросмотраЦепочкиСогласования</commonForms>
 </mdclass:Configuration>
