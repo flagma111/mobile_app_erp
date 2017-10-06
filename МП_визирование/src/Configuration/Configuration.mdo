@@ -37,10 +37,6 @@
     <languageCode>ru</languageCode>
   </languages>
   <sessionParameters>SessionParameter.UIDАвторизаванногоПользователя</sessionParameters>
-  <constants>Constant.ИмяПользователя</constants>
-  <constants>Constant.ПарольПользователя</constants>
-  <constants>Constant.СтрокаСоединения</constants>
-  <commonForms>CommonForm.ФормаНастроек</commonForms>
   <commonForms>CommonForm.ФормаСпискаДокументовВизирования</commonForms>
   <commonForms>CommonForm.ФормаДокументаДляВизирования</commonForms>
   <commonForms>CommonForm.ФормаПросмотраЦепочкиСогласования</commonForms>
