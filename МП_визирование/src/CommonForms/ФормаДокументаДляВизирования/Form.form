@@ -4,41 +4,6 @@
     <name>КнопкиСогласования</name>
     <id>45</id>
     <items xsi:type="form:Button">
-      <name>Закрыть</name>
-      <id>63</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ЗакрытьРасширеннаяПодсказка</name>
-        <id>64</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualButton</type>
-      <commandName>Form.StandardCommand.Close</commandName>
-      <representation>Picture</representation>
-      <width>11</width>
-      <autoMaxWidth>true</autoMaxWidth>
-      <height>2</height>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <picture xsi:type="core:PictureRef">
-        <picture>StdPicture.Back</picture>
-      </picture>
-    </items>
-    <items xsi:type="form:Button">
       <name>Согласовать</name>
       <id>43</id>
       <visible>true</visible>
