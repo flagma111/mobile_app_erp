@@ -37,6 +37,8 @@
     <languageCode>ru</languageCode>
   </languages>
   <sessionParameters>SessionParameter.UIDАвторизаванногоПользователя</sessionParameters>
+  <constants>Constant.Логин</constants>
+  <constants>Constant.Пароль</constants>
   <commonForms>CommonForm.ФормаСпискаДокументовВизирования</commonForms>
   <commonForms>CommonForm.ФормаДокументаДляВизирования</commonForms>
   <commonForms>CommonForm.ФормаПросмотраЦепочкиСогласования</commonForms>

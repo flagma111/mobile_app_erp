@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e26cd14-b23a-4cbe-9e1e-2a4a8c2c12ce">
+  <producedTypes>
+    <managerType typeId="4e3f7840-9a8d-47a5-9e75-0e4df0eebd26" valueTypeId="cad660c3-20de-48ef-88ed-6ca3964f72a8">
+    </managerType>
+    <valueManagerType typeId="87e219e1-676d-4672-b7d5-3192a8f7fead" valueTypeId="14e6d2f2-330e-461d-975d-55faeed4ed29">
+    </valueManagerType>
+  </producedTypes>
+  <name>Логин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логин</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

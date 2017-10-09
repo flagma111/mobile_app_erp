@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e09163ff-b239-44b4-bfb5-59e7facfb3a8">
+  <producedTypes>
+    <managerType typeId="edc1ca75-a04b-4e27-b683-9d6c622a3a6e" valueTypeId="24efde01-5ce1-47bc-aa43-2ed5ad2128fb">
+    </managerType>
+    <valueManagerType typeId="861af8e9-565a-4379-b5cb-a6d883412c51" valueTypeId="2e18a656-953c-41e6-84d1-3bd781298fa5">
+    </valueManagerType>
+  </producedTypes>
+  <name>Пароль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
