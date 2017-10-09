@@ -43,5 +43,4 @@
   <commonForms>CommonForm.ФормаДокументаДляВизирования</commonForms>
   <commonForms>CommonForm.ФормаПросмотраЦепочкиСогласования</commonForms>
   <catalogs>Catalog.Пользователи</catalogs>
-  <informationRegisters>InformationRegister.СопоставлениеПользователейERP</informationRegisters>
 </mdclass:Configuration>
